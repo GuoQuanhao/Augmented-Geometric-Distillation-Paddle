@@ -69,7 +69,7 @@ python evaluate.py --dataset msmt17 market --ckpt ./logs/msmt17-market_XsimGD/ch
 
 ## 实现精度
 
-|  | MSMT7-mAP | MSMT7-Rank-1 |Market-mAP | Market-Rank-1|
+|  | MSMT17-mAP | MSMT17-Rank-1 |Market-mAP | Market-Rank-1|
 |:-|:-:|:-:|:-:|:-:|
 | Paper | **41.9** | **67.5** | **80.5** | **91.9** |
 | Geometric Distillation(reproduce) | 40.8 | 66.5 | 80.1/91.8(re-ranking) | 92.0/94.4(re-ranking)|
